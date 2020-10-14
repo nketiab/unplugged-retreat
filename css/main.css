@@ -87,6 +87,159 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*----------------------- BASE HEADER AND FOOTER STYLES-------------*/
+
+header, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+footer .contact {
+ 
+}
+
+footer .contact address {
+ 
+
+}
+
+footer .social {
+
+
+}
+
+  footer .social-icons {
+    
+  }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************* MOBILE STYLES - HOMEPAGE ******************/
+main {
+
+}
+
+.hero-area {
+ 
+
+}
+
+.hero-area .content-wrapper {
+  display: flex;
+
+
+}
+aside {
+  
+
+
+}
+aside .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+   
+}
+
+.form {
+
+
+}
+.features {
+  
+
+}
+.features .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+.features-items {
+ display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fontawesome-icon {
+  display: flex;
+  
+}
+
+.features-item-description {
+ 
+
+}
+
+/***************** MOBILE STYLES - ABOUT PAGE *******************/
+
+.mission .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: row wrap;                                                                                                   
+
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.general-info {
+  
+}
+
+.chat-info {
+  
+}
+
+/******************* MOBILE STYLES - FAQ PAGE ****************/
+
+.faq .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+ 
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
