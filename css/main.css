@@ -96,6 +96,9 @@ header, footer{
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
 header .content-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -108,12 +111,18 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: inherit;
 
+}
+
+.header-divider {
+ 
 }
 
 footer .content-wrapper {
@@ -121,15 +130,18 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
 
 }
 
 footer .contact {
+  margin-top: 50px;
  
 }
 
-footer .contact address {
- 
+footer .contact address p{
+ margin: 0px;
 
 }
 
@@ -146,6 +158,7 @@ footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 53%;
 }
 
 /******************* MOBILE STYLES - HOMEPAGE ******************/
@@ -154,20 +167,26 @@ main {
 }
 
 .hero-area {
- 
+  width: 80%;
+  margin-left: 20px;
 
+}
+
+.hero-area h1 {
+  padding-top: 54px;
 }
 
 .hero-area .content-wrapper {
-  display: flex;
-
+  display: flex;  
 
 }
+
 aside {
-  
-
+  width: 86%;
+  margin-left: 20px;
 
 }
+
 aside .content-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -176,12 +195,16 @@ aside .content-wrapper {
    
 }
 
+aside h3 {
+  padding-top: 25px;
+}
 .form {
-
+  margin-bottom: 50px;
 
 }
 .features {
-  
+  width: 86%;
+  margin-left: 20px;
 
 }
 .features .content-wrapper {
@@ -192,10 +215,12 @@ aside .content-wrapper {
  }
 
 .features-items {
- display: flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  border: 3px solid green;
+  width: 42%;
   
 }
 
@@ -209,6 +234,31 @@ aside .content-wrapper {
 
 }
 
+.reviews {
+  width: 86%;
+  margin-left: 20px;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+
+}
+
+.reviews article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.reviews article div h3 {
+  width: 49%;
+}
 /***************** MOBILE STYLES - ABOUT PAGE *******************/
 
 .mission .content-wrapper {
@@ -216,12 +266,15 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center; 
   flex-flow: row wrap;                                                                                                   
-
+  margin: 45px 0px 49px 20px;
+  width: 89%;
 }
 
 .contact-section .content-wrapper {
   display: flex;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 50px 20px;
   
 }
 
@@ -238,7 +291,22 @@ aside .content-wrapper {
 .faq .content-wrapper {
   display: flex;
   flex-flow: row wrap;
+  margin: 0px 20px;
+  width: 89%;
  
+ 
+}
+
+.faq h1 {
+  margin: 45px 0px;
+}
+
+.faq .question {
+  margin: 0px 0px 14px 0px;
+}
+
+.faq .answer {
+  margin: 0px 0px 50px 0px;
 }
 /* ==========================================================================
    Helper classes
