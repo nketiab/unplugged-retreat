@@ -93,7 +93,6 @@ textarea {
   width: 85%;
   justify-content: center;
   align-items: center;
-  border: 3px solid purple;
 
 }
 
@@ -103,7 +102,7 @@ header, footer{
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-  border: 3px solid red;
+ 
 }
 
 header {
@@ -160,12 +159,11 @@ footer .social {
   justify-content: center;
   align-items: center;
   margin-left: 20px;
-  border: 3px solid purple;
+  
 }
 
 .hero-area {
   width: 100%;
-  border: 3px solid red;
 
 }
 
@@ -179,8 +177,7 @@ aside {
   flex-flow: row;
   width: 100%;
   margin: 0;
-  border: 3px solid red;
-
+ 
 }
 
 aside h3 {
@@ -193,7 +190,6 @@ aside h3 {
   align-content: center;
   flex-flow: row wrap;
   width: 100%;
-  border: 3px solid yellow;
 
 }
 
@@ -204,7 +200,7 @@ aside h3 {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-  border: 3px solid green;
+
 }
 
 
@@ -215,13 +211,11 @@ aside h3 {
   flex-flow: row wrap;
   align-content: space-around;
   width: 100%;
-  border: 3px solid orange;
 
 }
 
 .features {
   width: 100%;
- border: 3px solid red;
 
 }
 
@@ -232,7 +226,6 @@ aside h3 {
   justify-content: center;
   align-items: center;
   width: 55%;
-  border: 3px solid yellow;
   
 }
 
@@ -243,7 +236,7 @@ aside h3 {
 
 .reviews {
  width: 100%;
- border: 3px solid red;
+
 }
 
 .reviews article {
@@ -252,7 +245,6 @@ aside h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 3px solid aqua;
 
 }
 
@@ -405,7 +397,7 @@ aside h3 {
   justify-content: center;
   align-items: center;
   width: 82%;
-  border: 3px solid green;
+ 
 }
 
  header, footer{
@@ -566,7 +558,6 @@ aside h3 {
   display: flex;
   flex-direction: column;
   flex-basis: 200px;
-  border: 3px solid aqua;
 
 }
 
@@ -623,7 +614,6 @@ aside h3 {
 
 .mission {
   width: 100%;
-  border: 3px solid red;
 }
 
 .mission .paragraphs {
@@ -633,24 +623,20 @@ aside h3 {
 
 .mission p {
   width: 40%;
-  border: 3px solid red;
 }
 
 .mission h2 {
   padding: 92px 0px 34px 0px;
-  border: 3px solid blue;
 }
 
 
 .contact-section {
   width: 100%;
-  border: 3px solid red;
 }
 
 .contact-section .content-wrapper {
   display: flex;
   flex-flow: row wrap;
-  background: grey;
 
 }
 
@@ -661,7 +647,6 @@ aside h3 {
   align-items: center;
   flex-flow: row wrap;
   width: 40%;
-  border: 3px solid white;
 }
 
 .contact-section h2 {
@@ -681,7 +666,6 @@ aside h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 3px solid red;
 }
 
 .faq .content-wrapper{
@@ -695,7 +679,6 @@ aside h3 {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  border: 3px solid aqua;
   width: 100%;
 }
 
@@ -703,7 +686,6 @@ aside h3 {
   display: flex;
   flex-direction: column;
   flex-basis: 300px;
-  border: 3px solid green;
 
 }
 
@@ -734,10 +716,8 @@ aside h3 {
   display: flex;
   flex-direction: column;
   flex-basis: 430px;
-  border: 3px solid pink;
 
 }
-
 
 
 }
