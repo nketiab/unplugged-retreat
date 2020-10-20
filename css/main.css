@@ -125,12 +125,6 @@ header nav ul {
 
 }
 
-footer .content-wrapper {
-  flex-flow: row wrap;
-  width: 55%;
-  margin: 50px 0;
-
-}
 
 footer .contact {
   margin-top: 50px;
@@ -181,23 +175,11 @@ footer .social {
 }
 
 aside {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  margin: 0;
   border: 3px solid red;
-}
-
-.form-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  border: 3px solid green;
-
-}
-
-.form form {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-content: space-around;
 
 }
 
@@ -205,30 +187,52 @@ aside h3 {
   padding-top: 25px;
 }
 
-
 .form {
-  margin-bottom: 50px;
-  width: 100%;
-
-}
-.features {
-  width: 86%;
-  margin-left: 20px;
-
-}
-.features .content-wrapper {
   display: flex;
+  justify-content: flex-start;
+  align-content: center;
   flex-flow: row wrap;
-  justify-content: center;
+  width: 100%;
+  border: 3px solid yellow;
+
+}
+
+
+.form-description {
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
- }
+  flex-flow: row wrap;
+  width: 100%;
+  border: 3px solid green;
+}
+
+
+
+.form form {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  align-content: space-around;
+  width: 100%;
+  border: 3px solid orange;
+
+}
+
+.features {
+  width: 100%;
+ border: 3px solid red;
+
+}
+
 
 .features-items {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 42%;
+  width: 55%;
+  border: 3px solid yellow;
   
 }
 
@@ -237,24 +241,9 @@ aside h3 {
   
 }
 
-.features-item-description {
- 
-
-}
-
 .reviews {
-  width: 86%;
-  margin-left: 20px;
-}
-
-.reviews .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-
-  
-
+ width: 100%;
+ border: 3px solid red;
 }
 
 .reviews article {
@@ -262,8 +251,9 @@ aside h3 {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
   border: 3px solid aqua;
-  
+
 }
 
 .reviews article div h3 {
@@ -408,10 +398,347 @@ aside h3 {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here */
+   /*Header and footer styles */
+
+ .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82%;
+  border: 3px solid green;
+}
+
+ header, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+header {
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 82%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: row nowrap;
+  width:20%;
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.header-divider {
+ width: 45%;
+ 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
   
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 82%;
+  margin-top: 50px;
+}
+
+footer .contact {
+  margin-top: 50px;
+  width: 40%;
+ 
+}
+
+footer .contact address p{
+ margin: 0px;
+
+}
+
+footer .social {
+  width: 40%;
+
+}
+
+
+.copyright {
+  width: 53%;
+}
+
+/*Tablet styles Homepage*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+
+}
+
+.hero-area h1 {
+  padding-top: 54px;
+}
+
+
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+
+}
+
+.form-description {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 40%;
+}
+
+aside h3 {
+  padding-top: 40px;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+  width: 40%;
+
+}
+
+.form form {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: space-around;
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+
+}
+.features h2 {
+  width: 82%;
+}
+
+.features-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 67%;
+  
+}
+
+.features-items article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  border: 3px solid aqua;
+
+}
+
+.fontawesome-icon {
+  display: flex;
+  
+}
+
+.features-item-description {
+ 
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+
+}
+
+
+.reviews article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  
+}
+
+.reviews article div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  
+}
+
+.reviews article h3 {
+  width: 65%;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.reviews article div {
+  margin-top: 20px;
+}
+.reviews article div h3 {
+  padding-top:0;
+}
+
+                      /*Tablet styles- About Page*/
+
+.mission {
+  width: 100%;
+  border: 3px solid red;
+}
+
+.mission .paragraphs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mission p {
+  width: 40%;
+  border: 3px solid red;
+}
+
+.mission h2 {
+  padding: 92px 0px 34px 0px;
+  border: 3px solid blue;
+}
+
+
+.contact-section {
+  width: 100%;
+  border: 3px solid red;
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  background: grey;
+
+}
+
+
+.general-info, .chat-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 40%;
+  border: 3px solid white;
+}
+
+.contact-section h2 {
+  width: 66%;
+}
+
+.contact-section .paragraphs {
+  display: flex;
+  justify-content: space-around;
  }
+
+/* Tablet styles- FAQ page */
+
+.faq {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 3px solid red;
+}
+
+.faq .content-wrapper{
+  justify-content: space-around;
+  flex-flow: row wrap;
+
+}
+
+.faq-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid aqua;
+  width: 100%;
+}
+
+.faq-items article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  border: 3px solid green;
+
+}
+
+}
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here */
+
+.form-description, .form{
+  width: 27%;
+}
+
+.form form {
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.faq .content-wrapper {
+  flex-flow: row wrap;
+  height: 550px;
+}
+
+
+.faq h1 {
+  width: 82%;
+}
+
+.faq-items article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 430px;
+  border: 3px solid pink;
+
+}
+
+
 
 }
 /* ==========================================================================
