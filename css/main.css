@@ -90,6 +90,7 @@ textarea {
 
 html {
   font-size: 16px;
+  color: #e2e3ed;
 }
 
 body {
@@ -112,19 +113,23 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  font-weight: normal;
 
 }
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
+  font-weight: normal;
 }
 
 h3 {
    font-size: 1.875em;
+   
 }
 
 h4 {
   font-size: 1.125em;
+
 
 }
 
@@ -146,18 +151,15 @@ address {
 }
 
 .content-wrapper {
-
+   display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
 }
 
 
 /*----------------------- BASE HEADER AND FOOTER STYLES-------------*/
-.content-wrapper{
-  display: flex;
-  width: 85%;
-  justify-content: center;
-  align-items: center;
 
-}
 
 header, footer{
   display: flex;
@@ -165,7 +167,7 @@ header, footer{
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
- 
+  background: #202322;
 }
 
 header {
@@ -177,34 +179,71 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 100%;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
-  width: inherit;
+  justify-content: space-between;
+  width: 44%;
+  padding: 0px;
 
 }
 
+header ul li a {
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-weight: bold;
+}
 
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+  border: 3px solid yellow;
+  
+}
 footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   margin-top: 50px;
- 
+  width: 100%;
+  border: 3px solid orange;
+  
 }
 
 footer .contact address p{
  margin: 0px;
+ text-align: center;
+ 
+}
 
-
+footer .contact address h4 {
+  text-align: center;
 }
 
 footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  border: 3px solid aqua;
 
 
 }
 
   footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 3px solid white;
+
     
   }
 
@@ -228,12 +267,16 @@ footer .social {
 
 .hero-area {
   width: 100%;
+  background: grey;
 
 }
 
 .hero-area h2 {
   padding-top: 54px;
   margin-left: 20px;
+  color: #e2e3ed;
+  line-height: 42px;
+  
 }
 
 aside {
@@ -241,22 +284,23 @@ aside {
   flex-flow: row;
   width: 100%;
   margin: 0;
+  background: #527158;
  
 }
 
-aside h4 {
-  padding-top: 25px;
-}
 
+aside p {
+  font-size: 0.875em;
+}
 .form {
   display: flex;
   justify-content: flex-start;
   align-content: center;
   flex-flow: row wrap;
   width: 100%;
+  border: 3px solid white;
 
 }
-
 
 .form-description {
   display: flex;
@@ -264,9 +308,13 @@ aside h4 {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
+  border: 3px solid white;
 
 }
 
+.form-description h4 {
+  margin-bottom: 0px;
+}
 
 
 .form form {
@@ -280,6 +328,7 @@ aside h4 {
 
 .features {
   width: 100%;
+  background: grey;
 
 }
 
@@ -293,6 +342,11 @@ aside h4 {
   
 }
 
+.features-item-description {
+ font-size: 0.875em;
+ text-align: center;
+}
+
 .fontawesome-icon {
   display: flex;
   
@@ -300,6 +354,7 @@ aside h4 {
 
 .reviews {
  width: 100%;
+ background: #2a423a;
 
 }
 
@@ -314,6 +369,15 @@ aside h4 {
 
 .reviews article div h4 {
   width: 49%;
+}
+
+
+.reviews h3 {
+  margin-top: 55px;
+}
+
+.reviews p {
+  margin-bottom: 49px;
 }
 /***************** MOBILE STYLES - ABOUT PAGE *******************/
 
@@ -363,6 +427,33 @@ aside h4 {
 
 .faq .answer {
   margin: 0px 0px 50px 0px;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 54px;
 }
 /* ==========================================================================
    Helper classes
@@ -534,6 +625,7 @@ footer .contact address p{
 
 footer .social {
   width: 40%;
+  margin-top: 50px;
 
 }
 
