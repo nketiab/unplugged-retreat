@@ -254,11 +254,27 @@ footer .social {
     width: 100%;
   }
 
+footer .social-icons p {
+  display: flex;
+  background: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 1.5em;
+  background: #527158;
+  
+}
+
 .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 53%;
+  
 }
 
 /******************* MOBILE STYLES - HOMEPAGE ******************/
@@ -417,9 +433,7 @@ input[type=button] {
   align-items: center;
   width: 100%
 
-
 }
-
 
 .reviews article div h4 {
   width: 49%;
@@ -685,9 +699,9 @@ header nav ul li a {
 
 .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 100%;
   
 }
 
@@ -698,6 +712,7 @@ footer .content-wrapper {
   flex-flow: row wrap;
   width: 82%;
   margin-top: 50px;
+
 }
 
 footer .contact {
